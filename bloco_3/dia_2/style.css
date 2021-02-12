@@ -1,0 +1,32 @@
+body {
+    font-size: 16px;
+    font-style: normal;
+}
+h1 {font-size: 65px;
+    color: orange;
+    font-family: sans-serif;
+    line-height:0px;
+    text-align:center;
+}
+#background-amarelo {
+    background-color: yellow;
+}
+#background-vermelho {
+    background-color: red;
+}
+#background-marrom {
+    background-color: saddlebrown;
+}
+#background-verde {
+    background-color: green;
+}
+.background-azulzin {
+    background-color: paleturquoise;
+}
+p {
+    font-weight: 600;
+    font-size: 3em;
+    font-style: italic ;
+    line-height: 75px;
+    text-decoration-line: overline;
+}
