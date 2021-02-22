@@ -1,7 +1,7 @@
-h1, h3 {
+h1, h2, h3 {
     color:red
 }
-.titulo {
+h1 em {
     font-size: 40px;
     border: solid black 1px;
 }
@@ -29,4 +29,19 @@ li em{
 a:hover {
     font-weight: bold;
     color: black
+}
+.stack:hover {
+    color: orange;
+}
+.w3:hover {
+    color: green;
+}
+.mdn:hover {
+    color: black;
+}
+.dvd:hover {
+    color: yellow;
+}
+.trybe:hover {
+    color: green;
 }
