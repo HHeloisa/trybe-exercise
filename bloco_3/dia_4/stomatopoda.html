@@ -3,25 +3,29 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width" />
+    <link rel="stylesheet" type="text/css" href="estilostomatopoda.css">
+    <title>Stomatopoda</title>
   </head>
   <body>
+      <div class="conteudo">
     <header>
         <h1>Soco a 80km/h: Conheça o Stomatopoda.</h1>
     </header>
     <nav>
-        <ul>
+        <ul class="menu">
             <li><a href="#pagina-inicial">Pagina Inicial</a></li>
             <li><a href="#sobre">Sobre</a></li>
             <li><a href="#contato">Contato</a></li>
         </ul>
+        <br>
     </nav>
     <article>
-        <h2>Fatos sobre o Stomatopoda</h1>
+        <h2 id="pagina-inicial">Fatos sobre o Stomatopoda</h1>
         <section>
-            <h2>Informações gerais</h1>
+            <h3>Informações gerais</h1>
             <p> As Lacraias do mar, ou, chiquemente chamadas de Stomatopoda (ou estomatópode), cujo nome científico é: <em>Odontodactylus scyllarus</em> são uma ordem de crustáceos marinhos da subclasse Hoplocarida, que agrupa cerca de 400 espécies, caracterizadas principalmente pela morfologia da segunda pata torácica, que é modificada em apêndice subquelado, lembrando uma pata de louva-a-deus.[2]</p>
         
-            <table>
+            <table id="sobre" class="tabela">
                 <thead>
                   <tr>
                     <th>Classificações Científicas</th>
@@ -58,37 +62,37 @@
                     </tr>
                   </tfoot>
               </table>
-            <figure> 
+            <figure class="imagens"> 
                 <img src="stomatopodaa.jpg">
                 <figcaption>
-                    <h3>Conheça o Stomatopoda</h3>
+                    <h4>Conheça o Stomatopoda</h4>
                 </figcaption>
             </figure>
         </section>
         <section>
-            <h2>Bate mais:</h2>
+            <h3>Bate mais:</h2>
             <p>De acordo com a anatomia da sua pata raptorial é possível distinguir entre dois grupos funcionais, as perfuradoras (spearers) ou as esmagadoras (smashers), sendo que cada um dos tipos apresenta sua própria variação comportamental e até mesmo de habitat.</p>
             <p> As maiores esmagadoras, tais como exemplares de Odontodactylus scyllarus, são capazes de desferir um dos mais rápidos e violentos golpes do reino animal, um soco que pode apresentar <strong>a velocidade de um tiro calibre .22 (equivalente a 720km/h) e uma força de impacto de 60 kg/cm²</strong>. Essa força esmagadora é a responsável pelo seu título de <em>"lagosta-boxeadora"</em> e é capaz de facilmente quebrar a carapaça de um caranguejo, as conchas duras e calcificadas de gastrópodes ou até mesmo quebrar o vidro reforçado de um aquário.</p>
-            <figure>
+            <figure class="imagens">
                 <img src="soco.jpg">
                 <figcaption>
-                    <h3>Repare as diferenças anatomicas entre as duas patas do stomatopoda.</h3>
+                    <h4>Repare as diferenças anatomicas entre as duas patas do stomatopoda.</h4>
                 </figcaption>
             </figure>
         </section>
         <section>
-            <h2>Veja bem!</h2>
+            <h3>Veja bem!</h2>
             <p>Nossos olhos possuem três tipos desses receptores - que correspondem à luz azul, verde e vermelha -, que nos permitem perceber o espectro de cores que vemos. Os cães contam com apenas dois tipos de cones (verde e azul), e é por isso que eles vêm tons de azul, verde e um pouco de amarelo. Muitos anfíbios, répteis, aves e insetos possuem quatro tipo de cones, o que significa que espécies dessas classes conseguem ver cores que o nosso cérebro é incapaz de processar. Algumas espécies específicas de borboletas e possivelmente pombos possuem cinco cones de percepção de cor, o que aumenta ainda mais a quantidade de pigmentos que eles são capazes de perceber. <strong>O sistema de visão dos estomatópodes possui doze cones sensíveis à luz e outros quatro que filtram a luz (16 cones no total), o que lhes permite ver cores polarizadas e imagens multiespectrais.</strong></p>
             <p>Ou seja, esses animais possuem o mais complexo sistema de visão de cores do mundo animal, <strong>pois enxergam 12 cores primárias</strong>, correspondentes aos 12 pigmentos distintos presentes em sua retina.</p>
-            <figure>
+            <figure class="imagens">
                 <img src="visao-stomatopoda.jpg">
-                <figcaption>
-                    <h3>Grafico dos comprimentos de ondas de cores vistas por humanos e pelo stomatopoda"</h3>
+                <figcaption >
+                    <h4>Grafico dos comprimentos de ondas de cores vistas por humanos e pelo stomatopoda"</h4>
                 </figcaption>
             </figure>
         </section>
         <section>
-            <h2>Referências:</h2>
+            <h3>Referências:</h2>
             <ul>
                 <li><a href="https://pt.wikipedia.org/wiki/Stomatopoda" target="_blank">Wikipédia</a></li>
                 <li><a href="https://www.nationalgeographic.com/science/article/natures-most-amazing-eyes-just-got-a-bit-weirder" target="_blank">Natural Geographic</a></li>
@@ -97,12 +101,15 @@
             </ul>
         </section>
     </article>
-    <aside>
-        <h2>Stomatopoda em ação!</h2>
+    </div>
+    <div class="aside">
+    <aside class="aside">
+        <h3>Stomatopoda em ação!</h2>
         <p>Ficou curiosa e quer ver esse animal sensacional em ação? Assista o vídeo a seguir. Você irá se surpreender!</p>
-        <iframe width="560" height="315" src="https://www.youtube.com/embed/E0Li1k5hGBE" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        <iframe src="https://www.youtube.com/embed/E0Li1k5hGBE" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
     </aside>
-    <footer>
+    </div>
+    <footer id="contato">
         Este material foi compilado por Heloísa Hackenhaar, em 2021, a fim de praticar as estruturas do HTML5.
     </footer>
   </body>
