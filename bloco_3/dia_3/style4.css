@@ -1,0 +1,47 @@
+h1, h2, h3 {
+    color:red
+}
+h1 em {
+    font-size: 40px;
+    border: solid black 1px;
+}
+ol li {
+    background-color: yellow;   
+}
+.par {
+    color: forestgreen
+}
+.primo {
+    text-transform:uppercase;
+}
+li{
+    font-size: 20px;
+}
+li em{
+    font-weight: bold;
+}
+.azul {
+    color: blue;
+}
+.java {
+    background-color: palevioletred;
+}
+a:hover {
+    font-weight: bold;
+    color: black
+}
+.stack:hover {
+    color: orange;
+}
+.w3:hover {
+    color: green;
+}
+.mdn:hover {
+    color: black;
+}
+.dvd:hover {
+    color: yellow;
+}
+.trybe:hover {
+    color: green;
+}
