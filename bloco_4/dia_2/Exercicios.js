@@ -33,7 +33,7 @@ else {
   console.log('valor menor ou igual a 20')
 }
 
-// Exercício 5  Conteúdo de referencia para resolução: https://www.youtube.com/watch?v=K7cfWrm21hg. //
+// Exercício 5   //
 let numbers = [5, 9, 3, 19, 70, 8, 100, 2, 35, 27];
 let maiorNumero = numbers[0];
 for (let index = 1; index < numbers.length; index += 1) {
@@ -52,7 +52,7 @@ for (let indexImpar = 0; indexImpar < numbers.length; indexImpar += 1) {
     }
 }
   if (impar === 0) {
-    console.log("nenhum valor ímpar encontrado");
+    console.log('nenhum valor ímpar encontrado');
   }
   else {
     console.log(impar);
